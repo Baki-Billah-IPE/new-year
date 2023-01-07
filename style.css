@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header styles */
+header{
+    background-image: url('../new-year/images/banner/banner1.png');
+    background-size:100% 100% ;
+    height: 600px;
+
+}
+.title{
+    text-align: right;
+    padding: 50px;
+    margin-left: 700px;
+    width: 400px;
+    font-size: 40px;
+}
+.title-p{
+    text-align: right;
+    padding: 20px;
+    margin-left: 725px;
+    width: 400px;
+
+}
+.title-btn{
+    margin-left:1000px ;
+    padding: 15px 20px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+/* person problem styles */
+.picture-person{
+    display: flex;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.person{
+    padding: 50px;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 100px;
+}
+.person-problem{
+  padding:50px ;
+  margin-left: 20px;
+  font-size: 30px;
+  width:200px;
+
+}
+.person-description{
+width: 450px;
+padding: 5px;
+display: flex;
+ margin-left: 20px;   
+
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+    font-size:15px;
+    position: relative;
+
+}
+
+ li::before{
+    
+     content: "\2714";
+     color: green;
+     
+ }
+ .my-plans{
+     margin-top: 600px;
+    text-align: center;
+ }
+ .section-title{
+     font-weight: 700;
+     font-size: 20px;
+ }
+ .skill{
+     padding: 20px;
+     text-align: left;
+     width: 400px;
+ }
+ .skills-container{
+     text-align: left;
+     padding: 30px;
+     gap:2px;
+     display: flex;
+
+ }
+ .skill-title{
+     font-size: 20px;
+     font-weight: 700;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     width: 200px;
+ }
+ .skill-description{
+     font-size: 15px;
+     color: grey;
+ }
+ /* Gradient styles */
+
+
+ :root{
+     --primary:hsla(348, 97%, 63%, 0.65);
+     --secondary:hsla(263, 96%, 62%, 0.65);
+
+     
+ }
+ .gradient-picture{
+    
+     position: absolute;
+     height:300px;
+     width: 1000px;
+    
+     color: thistle;
+     place-items: center;
+     margin: 10px 10px;
+     margin-left: 150px;
+
+     opacity: .5;
+     background: linear-gradient(135deg,var(--primary),var(--secondary) ),
+                 url('./images/watch.png') no-repeat center center /cover;
+    
+ 
+}
+.gradient-title{
+    padding: 50px;
+    font-weight: 800;
+}
+.gradient-btn{
+    margin-left: 100px;
+
+    border-radius: 5px;
+    background-color:white;
+    color: purple;
+    font-size: 30px;
+    border: none;
+
+}
+.last{
+    background-color: black;
+    padding: 100px;
+    margin-top: 400px;
+
+
+    
+}
+.last-part{
+    color: white;
+    display: flex;
+    gap: 500px;
+}
+.pera{
+    color: white;
+}
+ 
+.pera-title{
+   font-size: 40px;
+   font-weight: 700;
+   width: 50px;
+   margin-bottom: 20px;
+}
+.mail{
+    margin-top: 20px;
+    color: white;
+}
+.phone{
+    color: white;
+    margin-top:22px ;
+    margin-bottom: 10px;
+}
+.pera-btn{
+    color:black;
+    padding: 10px 60px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    
+}
+.btn-subscribe{
+    color:orangered;
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+
+}
+
+}
